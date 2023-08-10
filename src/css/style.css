@@ -14,11 +14,38 @@ header{
     top: 0;
 }
 main{
+    display: grid;
     background-color: #005C53;
     border: 1px solid yellow;
     display: grid;
     height: 100vh;
     place-content: center;
+    color: black;
 
 }
-
+#calculadora{
+    width: 50vw;
+    height:50vh;
+    background-color: white;
+}
+    .calculo{
+        display: flex;
+        align-items: center;
+        font-size: 2rem;
+        padding-right: 10px;
+        width: 100%;
+        height: 10vh;
+        border: 2px solid black;
+        background-color: rgb(98, 98, 98);
+        color: white;
+    }
+    .numeros{
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        grid-template-rows: 5rem 5rem 5rem 5rem;
+        background-color: red;
+        place-content: center;
+        height: 80%;
+        border: 1px solid black;
+        
+    }
